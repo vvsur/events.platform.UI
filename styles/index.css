@@ -1,0 +1,47 @@
+@import "./tailwind.css";
+
+@import "./App.css";
+
+@import "./swiper.css";
+@import "./swiperAddition.css";
+
+.MuiList-padding  {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.MuiPaper-rounded  {
+  border-radius: 0px !important;
+}
+.MuiButton-label:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 4px;
+  position: relative;
+  top: -1px;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle{
+  transform: scale(1) translate(40%, 0%) !important;
+}
+
+.MuiBadge-colorPrimary {
+  color: #285e61 !important;
+  background-color: #edf2f7 !important;
+}
+
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: #edf2f7 !important;
+}
+
+
+.event_body_text p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.event_body_text ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
