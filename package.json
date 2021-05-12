@@ -37,7 +37,7 @@
     "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.3.0",
-    "swiper": "^5.2.0"
+    "swiper": "^6.5.1"
   },
   "license": "ISC"
 }
