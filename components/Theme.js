@@ -1,15 +1,7 @@
-import React from 'react';
-import {ThemeProvider} from '@material-ui/styles';
+import React from "react";
 
-function Theme(props)
-{
-    return (
-        // <ThemeProvider>
-        <>
-            {props.children}
-            </>
-        // </ThemeProvider>
-    )
+function Theme(props) {
+  return <>{props.children}</>;
 }
 
 export default React.memo(Theme);

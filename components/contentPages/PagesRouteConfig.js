@@ -1,21 +1,15 @@
-import PageApp from './PageApp';
-//import PageApp from '../events/EventApp';
+import PageApp from "./PageApp";
 
 export const PagesRouteConfig = {
-    settings: {
-        layout: {
-            config: {}
-        }
+  settings: {
+    layout: {
+      config: {},
     },
-    routes: [
-        {
-            path: [
-                '/:langSysName?/content/:pageSysName?'//,
-                //'/:langSysName?/event/:eventSysNameWithId?',
-                // '/events/page/:currentPage?',
-                // '/events',
-            ],
-            component: PageApp
-        },
-    ]
+  },
+  routes: [
+    {
+      path: ["/:langSysName?/content/:pageSysName?"],
+      component: PageApp,
+    },
+  ],
 };

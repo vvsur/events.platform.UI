@@ -1,11 +1,7 @@
-import layoutBase from './baseAppLayoutConfigsBase';
-// import layout2 from './layout2/Layout2Config';
-// import layout3 from './layout3/Layout3Config';
+import layoutBase from "./baseAppLayoutConfigsBase";
 
 const VieCoreLayoutConfigs = {
-    layoutBase,
-    // layout2,
-    // layout3
+  layoutBase,
 };
 
 export default VieCoreLayoutConfigs;
